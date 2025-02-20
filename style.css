@@ -3,45 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .banner {
     position: relative;
     width: 100%;
-    height: 700px; 
-    background: url('../img/banner2.png') no-repeat center center/cover;
+    height: 700px;
+    background: url('./img/banner2.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
-    justify-content:right;
+    justify-content: right;
 }
 
 .banner_text {
-    
+
     position: absolute;
     color: black;
-   
+
     text-align: center;
     padding: 10px 20px;
     height: 500px;
     width: 500px;
-    text-align:right;
+    text-align: right;
     margin-right: 15%;
     margin-top: 10%;
-    
-    
+
+
 }
-.banner_text h1{
+
+.banner_text h1 {
     font-size: 60px;
     margin-bottom: 50px;
     text-align: right;
-    
+
 }
-.banner_text p{
+
+.banner_text p {
     font-size: 15px;
     color: #34495e;
     margin-bottom: 15px;
     text-align: right;
 }
 
-.button{
+.button {
     margin: 10px auto;
     padding: 15px 35px;
     background-color: #F15B22;
@@ -49,37 +52,43 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    display: inline-block; /* Centers it horizontally */
+    display: inline-block;
+    /* Centers it horizontally */
     text-align: center;
-    white-space: nowrap; /* Prevents text from breaking */
+    white-space: nowrap;
+    /* Prevents text from breaking */
     border-radius: 15px;
     font-weight: bolder;
-    
+
 }
 
-.button a{
-    text-decoration:none;
+.button a {
+    text-decoration: none;
     color: black;
     font-size: 20px;
     /* margin-left: auto; */
-    
+
 }
-.button:hover{
+
+.button:hover {
     margin: 10px auto;
     padding: 15px 35px;
-    background-color:beige ;
+    background-color: beige;
     color: black;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    display: inline-block; /* Centers it horizontally */
+    display: inline-block;
+    /* Centers it horizontally */
     text-align: center;
-    white-space: nowrap; /* Prevents text from breaking */
+    white-space: nowrap;
+    /* Prevents text from breaking */
     border-radius: 15px;
     font-weight: bolder;
-    
+
 }
-.img_n_text{
+
+.img_n_text {
     display: flex;
     align-items: center;
     margin-left: 300px;
@@ -88,26 +97,29 @@
 
 }
 
-.text{
+.text {
     width: 300px;
     height: 400px;
     align-content: end;
     margin-left: 30px;
 }
-.text h1{
+
+.text h1 {
     font-size: 40px;
 }
-.text p{
+
+.text p {
     padding: 20px 0px;
 }
-.plans{
+
+.plans {
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: center;
 }
 
-section h1{
+section h1 {
     text-align: center;
     font-size: 40px;
     margin: 70px 0px;
@@ -117,27 +129,33 @@ section h1{
     width: 1140px;
     height: 300px;
     margin: 150px 200px;
-    background: 
-        url('../img/gradient2.png') no-repeat center center/cover, 
+    background:
+        url('../img/gradient2.png') no-repeat center center/cover,
         url('../img/watch.png') no-repeat center center/cover;
-    
+
     display: flex;
-    flex-direction: column; /* Stacks items vertically */
-    align-items: flex-start; /* Aligns text to the left */
-    justify-content: center; /* Centers content vertically */
-    padding-left: 30px; /* Adds spacing from the left */
+    flex-direction: column;
+    /* Stacks items vertically */
+    align-items: flex-start;
+    /* Aligns text to the left */
+    justify-content: center;
+    /* Centers content vertically */
+    padding-left: 30px;
+    /* Adds spacing from the left */
 }
 
 .mindset_title {
     color: white;
     width: 500px;
-    height: auto; /* Allows height to adjust dynamically */
+    height: auto;
+    /* Allows height to adjust dynamically */
     padding: 10px 5px;
     margin-top: 40px;
 }
 
 .mindset button {
-    margin-top: 0px; /* Adds space between text and button */
+    margin-top: 0px;
+    /* Adds space between text and button */
     margin-bottom: 100px;
     margin-left: 180px;
     padding: 10px 20px;
@@ -150,12 +168,14 @@ section h1{
 
 .mindset button a {
     text-decoration: none;
-    color:#F15B22;
+    color: #F15B22;
     font-size: 20px;
     padding: 20px 20px;
 }
+
 .mindset button:hover {
-    margin-top: 0px; /* Adds space between text and button */
+    margin-top: 0px;
+    /* Adds space between text and button */
     margin-bottom: 100px;
     margin-left: 180px;
     padding: 10px 20px;
@@ -170,29 +190,31 @@ section h1{
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 150px 10%; 
-    background: #000; 
+    padding: 150px 10%;
+    background: #000;
     color: white;
     margin: 10px 10px;
 }
 
-.Future{
-        width: 45%;
+.Future {
+    width: 45%;
 }
-.Future h2{
+
+.Future h2 {
     margin-bottom: 20px;
     font-size: 30px;
 }
 
 .subscribe {
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.subscribe h2{
+
+.subscribe h2 {
     margin-right: 65%;
-   
+
 
 }
 
@@ -205,16 +227,17 @@ footer {
 
 .subscribe button {
     padding: 20px 5px;
-    background: #007bff; 
+    background: #007bff;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 10px;
     margin-right: 68%;
 }
+
 .subscribe button:hover {
     padding: 20px 15px;
-    background: white; 
+    background: white;
     color: black;
     border: none;
     cursor: pointer;
