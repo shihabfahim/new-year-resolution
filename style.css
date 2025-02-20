@@ -130,8 +130,8 @@ section h1 {
     height: 300px;
     margin: 150px 200px;
     background:
-        url('../img/gradient2.png') no-repeat center center/cover,
-        url('../img/watch.png') no-repeat center center/cover;
+        url('./img/gradient2.png') no-repeat center center/cover,
+        url('./img/watch.png') no-repeat center center/cover;
 
     display: flex;
     flex-direction: column;
